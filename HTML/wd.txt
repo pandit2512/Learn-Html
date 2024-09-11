@@ -1,0 +1,4 @@
+copy line down : shift+Alt+ up/down arrow
+move selected part: alt+up/down arrow
+div.box : div--> class--> box
+multiple div for same class and  different id-->div.box*4 / div.box#box$*4

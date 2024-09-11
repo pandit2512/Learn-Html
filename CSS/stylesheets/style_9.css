@@ -1,0 +1,20 @@
+.box
+{
+    background-color:skyblue;
+    font-weight: bold;
+    height: 200px;
+}
+.body
+{
+    background-color:plum;
+    height: 200px;
+    width: 250px;
+    display: block;
+
+}
+.box1
+{
+    background-color: lightslategray;
+    height: 300px;
+    display: inline-block;
+}

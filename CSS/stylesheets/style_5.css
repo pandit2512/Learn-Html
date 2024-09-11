@@ -1,0 +1,17 @@
+.box
+{
+    height: 100px;
+    width: 100px;
+    background-color: aqua;
+    border: 5px solid black;
+    border: 5px dotted black;
+    border: 5px double black;
+    /* Latest property will be applied */
+}
+.box1
+{
+    border-left: 5px solid green;
+    border-right: 490px solid blue;
+    border-bottom: 5px solid red;
+    border-top: 5px solid red;
+}

@@ -1,0 +1,19 @@
+.box p{
+    background-color: yellow;
+}
+.container>p
+{
+    color: salmon;
+}
+.container
+{
+    border: 5px solid black;
+
+}
+.container~h3{    
+     background-color: blueviolet; /*~ include all h3 after     container class */
+}
+.container+h3
+{
+background-color: aqua;/* +h3 targets only one h3 tag */
+}

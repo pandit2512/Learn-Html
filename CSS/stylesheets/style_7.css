@@ -1,0 +1,33 @@
+
+
+/* margin:10px(T B) 20px (R L) */
+/* margin:10px(T) 20px(RL) 30px(B) */
+/* margin:10px(T) 20px(R) 30px(B) 40px(L)  */
+
+.box
+{
+    height: 150px;
+    width: 150px;
+    border: 2px solid orangered;
+}
+#box1
+{background-color: yellow;
+    margin-top: 5px;
+    margin-left: 152px;
+}
+#box2
+{
+    background-color: green;
+
+}
+#box3
+{
+    background-color: aqua;
+     margin-left: 152px;
+
+}
+#box4
+{
+    background-color: red;
+    margin-bottom: 5px;
+}
