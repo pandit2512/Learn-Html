@@ -1,0 +1,35 @@
+.container
+{
+    background-color: brown;
+    height: 500px;
+    width: 500px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    /* the no of time you write fr,you will be getting same no. of column */
+    grid-template-rows: 2fr 2fr 2fr;
+    grid-gap: 20px;
+}
+.box
+{
+    background-color: aqua;
+    border: 5px solid orangered;
+}
+#box1
+{
+    grid-column-start:1;
+    grid-column-end: 4;
+    /* grid-row-start: 2; */
+    /* grid-row-end: 4; */
+}
+#box2
+{
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+#box4
+{
+     /* grid-column-start:2; */
+    /* grid-column-end: 4;  */
+grid-column-start: 1;
+grid-column-end: 4;
+}

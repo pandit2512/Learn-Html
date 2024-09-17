@@ -1,0 +1,21 @@
+body{
+    background-image: url(../../HTML/img/elon.jpg);
+    /* background-repeat: repeat-y; */
+    background-repeat: repeat-x;
+    background-repeat: no-repeat;
+    background-size: 25%;
+    /* background-size: cover; */
+    /* it covers the entire your web page */
+    /* background-size: contain; */
+    /* try to maintain original aspect of image */
+
+    /* background-position: left 2px; */
+
+    /* background-position: right 2px; */
+
+    background-position: center 200px;
+
+
+    
+
+}

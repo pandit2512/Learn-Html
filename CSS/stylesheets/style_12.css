@@ -1,0 +1,38 @@
+.box
+{
+    background-color: aqua;
+    /* border: 20px; */
+    height: 200px;
+    width: 200px;
+    padding: 0px 50px;
+    box-shadow: 20px 20px 25px 10px; /* 10px (x-axis) 150(y-axis) 25px(blur) 10px(shadow spread)*/
+
+}
+
+.box>p{
+    border: 5px solid black;
+    padding:5px ;
+    color: red;
+    box-shadow: 10px 10px;
+
+}
+
+h1
+{
+    background-color: blueviolet;
+    border: 5px solid orangered;
+    color: yellowgreen;
+    padding: 10px 150px ;
+    box-shadow: 10px 10px 5px 1px;
+    text-decoration: overline 4px dotted black;
+    text-decoration: line-through 4px dotted black;
+    text-decoration: underline 4px dotted black;
+}
+a
+{
+    text-decoration: none;
+    background-color: grey;
+    padding: 15px;
+    color: black;
+    border-radius: 20px;
+}

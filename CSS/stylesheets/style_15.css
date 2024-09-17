@@ -1,0 +1,51 @@
+body
+{
+background-color: #118a7e;
+}
+
+
+#img1
+{
+    float: left;
+    border: 5px solid red;
+}
+#img2
+{
+float: left;
+clear: left;
+border: 5px solid #2c5d63;
+}
+span{
+    background-color: yellow;
+    font-size: 2.5rem;
+}
+.box
+{
+    width: 400px;
+    height: 350px;
+    background-color: #e84a5f;
+}
+
+.box p 
+{
+    background-color: #83580b;
+    width: 25em;
+
+}
+
+p::first-letter
+{
+    font-size: 50px;
+    color: #ff007b;
+}
+p::first-line
+{
+    font-size: 50px;
+    color: #ff007b;   
+}
+
+.box:hover
+{
+    background-color: #f7aa00;
+    border-radius: 50px;
+}

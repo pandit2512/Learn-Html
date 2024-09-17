@@ -1,0 +1,26 @@
+.box
+{
+    height: 200px;
+    width: 200px;
+    position: relative;
+
+}
+#box1
+{
+    background-color: aqua;
+    left: 100px;
+    top: 40px;
+}
+#box2
+{
+    background-color:palevioletred;
+    top: 50px;
+}
+#box3
+{
+    background-color: maroon;
+}
+#box4
+{
+    background-color: orangered;
+}

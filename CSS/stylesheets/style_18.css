@@ -1,0 +1,23 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&family=Sofadi+One&display=swap');
+
+
+
+.roboto-slab-data {
+  font-family: "Roboto Slab", "serif";
+  font-optical-sizing: auto;
+  font-weight: 900;
+  font-style: normal;
+}
+
+.sofadi-one-regular {
+    font-family: "Sofadi One", system-ui;
+    font-weight: 400;
+    font-style: normal;
+  }
+img
+{
+    max-width: 800px;
+}
+  
