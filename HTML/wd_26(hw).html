@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Positioning</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+        }
+        span {
+            border: 1.5px dotted white;
+            padding: 2px;
+
+        }
+
+        .scrollable-content {
+            height: 400px;
+            overflow-y: scroll;
+            background-color: #fff;
+            border: 1px solid #ccc;
+            padding: 20px;
+            position: relative;
+        }
+
+        .fixed-box {
+            position: fixed; /* Changed from fixed to absolute */
+            top: 20px;
+            width: 40%;
+            background-color:rgb(204, 21, 21);
+            color: white;
+            padding: 30px;
+            font-size: 1.2rem;
+        }
+
+    </style>
+</head>
+<body>
+
+    <div class="scrollable-content">
+        <div class="fixed-box">
+            This div has  <span>position: fixed </span>;
+        </div>
+
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur euismod lorem euismod, vestibulum magna vel, feugiat felis. 
+            Mauris laoreet varius erat, vitae faucibus sem consectetur eget. Donec eget velit vitae justo luctus condimentum. Phasellus 
+            convallis ligula non arcu aliquet, et tincidunt dui ullamcorper. Duis finibus placerat libero, non pretium risus cursus nec. 
+            Cras sed est purus. Aliquam erat volutpat. Nulla facilisi. Etiam volutpat nec magna vel maximus.
+        </p>
+        <p>
+            Proin pellentesque ex non enim dignissim convallis. Curabitur ut viverra odio. Cras interdum massa eget odio bibendum, 
+            id fringilla libero dignissim. Suspendisse potenti. Sed imperdiet arcu turpis, id feugiat risus hendrerit nec. 
+            Vivamus interdum nunc felis, ac volutpat libero dignissim id. Ut laoreet justo ut sem tincidunt feugiat. Aenean 
+            sollicitudin vestibulum felis.
+        </p>
+        <p>
+            Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Integer fermentum augue ac 
+            odio interdum, sit amet egestas est interdum. Suspendisse potenti. Nulla vel quam tortor. Proin molestie nisl ac 
+            eros vehicula vulputate. Vestibulum feugiat, mauris eget ornare aliquet, mauris nisl aliquet ex, eget accumsan 
+            metus lacus at nunc. Duis porttitor felis ac velit pharetra, non vehicula libero scelerisque. Morbi vulputate 
+            urna id ex accumsan vulputate. 
+        </p>
+        <p>
+            Mauris viverra nulla id leo tristique, non placerat libero venenatis. Sed vulputate viverra nunc, id ultricies nulla 
+            dignissim non. Sed vel quam vehicula, volutpat felis a, pulvinar arcu. Donec sed lacus sit amet erat hendrerit 
+            commodo. Nam finibus venenatis sapien, quis efficitur velit pharetra ac. Nam id nisi eget eros euismod ullamcorper 
+            at ac arcu. 
+        </p>
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur euismod lorem euismod, vestibulum magna vel, feugiat felis. 
+            Mauris laoreet varius erat, vitae faucibus sem consectetur eget. Donec eget velit vitae justo luctus condimentum. Phasellus 
+            convallis ligula non arcu aliquet, et tincidunt dui ullamcorper. Duis finibus placerat libero, non pretium risus cursus nec. 
+            Cras sed est purus. Aliquam erat volutpat. Nulla facilisi. Etiam volutpat nec magna vel maximus.
+        </p>
+        <p>
+            Proin pellentesque ex non enim dignissim convallis. Curabitur ut viverra odio. Cras interdum massa eget odio bibendum, 
+            id fringilla libero dignissim. Suspendisse potenti. Sed imperdiet arcu turpis, id feugiat risus hendrerit nec. 
+            Vivamus interdum nunc felis, ac volutpat libero dignissim id. Ut laoreet justo ut sem tincidunt feugiat. Aenean 
+            sollicitudin vestibulum felis.
+        </p>
+
+    </div>
+
+</body>
+</html>

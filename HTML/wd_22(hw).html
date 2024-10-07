@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student | Sign Up </title>
+    <style>
+        body{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 0;
+            padding: 0;
+            height: 100vh;
+        }
+         .signup-container{
+            text-align: center;
+            margin-bottom: -25px;
+        }
+        label {
+          display: inline-block;
+          margin-bottom: 8px;
+          font-weight: bold;
+        }
+
+        input[type="submit"]{
+            display:block;
+            margin-left: 130px;
+            margin-top: 8px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    
+    <form action="">
+    <table>
+    <div class="signup-container">
+        <h2>Sign Up</h2>
+        <tr>
+       <td> <label for="#">Username:</label> </td>
+        <td><input type="text" name="username"  placeholder="Enter Email ID" required id="username"></td>
+    </tr>
+        <tr>
+        <td><label for="#">Password:</label></td>
+        <td><input type="text" name="password" required id="password"></td>
+    </tr>
+        <br>
+        <tr>
+        <td><label for="#">Confirm Password:</label></td>
+        <td><input type="text" name="confirm_password" required id="confirm_password"></td>
+    </tr>
+    </table>
+        <input type="submit" value="Sign Up">
+    </div>
+</form>
+
+</body>
+</html>
